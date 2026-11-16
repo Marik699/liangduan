@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>ok</title>
+<style>
+  :root{--bg:#141d36;--fg:#efe5cf}
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:var(--bg);color:var(--fg);font:20px/1.5 system-ui,sans-serif}
+</style>
+</head>
+<body>
+<p>ok · <span id="t"></span></p>
+<script>document.getElementById('t').textContent = new Date().toISOString().slice(0,16).replace('T',' ');</script>
+</body>
+</html>
